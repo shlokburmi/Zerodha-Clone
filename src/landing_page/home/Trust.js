@@ -18,7 +18,7 @@ function Trust() {
           <p>
             No gimmicks, spam, "gamification", or annoying push notifications.
             High quality apps that you use at your pace, the way you like.  
-            {""} <a href="/philosophies"> Our philosophies.</a>
+            {""} <a href="/philosophies" className="text-decoration-none"> Our philosophies.</a>
           </p>
           <br></br>
           
@@ -30,7 +30,7 @@ function Trust() {
           <br></br>
           <h3>Do better with money</h3>
           <p>
-            With initiatives like <a href="">Nudge</a> and <a href="">Kill Switch</a>, we don't just
+            With initiatives like <a href="" className="text-decoration-none">Nudge</a> and <a href="" className="text-decoration-none">Kill Switch</a>, we don't just
             facilitate transactions, but actively help you do better with your
             money.
           </p>
@@ -38,11 +38,11 @@ function Trust() {
         <div className="col-6">
           <img src="media/images/trust.png" alt="trust" width={580} />
           <p class="text-center" style={{ display:"flex", justifyContent:"center ", gap:"70px", marginBottom:"70px" }}>
-    <a href="/products">
+    <a href="/products" className="text-decoration-none">
         Explore our products <i>→</i>
     </a>
 
-    <a href="https://kite-demo.zerodha.com" class="demo-link">
+    <a href="https://kite-demo.zerodha.com" class="demo-link text-decoration-none">
         Try Kite demo <i>→</i>
     </a>
 </p>
