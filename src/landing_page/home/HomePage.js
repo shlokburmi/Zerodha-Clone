@@ -3,24 +3,26 @@ import Hero from './Hero';
 import Stats from './Stats';
 import Pricing from './Pricing';
 import Education from './Education';
-import Awards from './Awards';
+import Trust from './Trust';
 import OpenAccount from '../OpenAccount';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-function PricingPage() {
+function HomePage() {
     return ( 
         <>
-         <Navbar/>
+        <Navbar/>
         <Hero/>
+        
         <Stats/>
         <Pricing/>
         <Education/>
-        <Awards/>
+        <Trust/>
         <OpenAccount/>
+
         <Footer/>
 
         </>
     );
 }
 
-export default PricingPage;
+export default HomePage;

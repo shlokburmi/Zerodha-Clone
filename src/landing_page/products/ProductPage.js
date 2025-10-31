@@ -7,11 +7,11 @@ import Universe from './Universe';
 
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-function AboutPage() {
+function ProductPage() {
     return ( 
         <>
-<Hero/>
-<Navbar/>
+        <Hero/>
+        <Navbar/>
         <LeftSection/>
         <RightSection/>
         <Universe/> 
@@ -22,4 +22,4 @@ function AboutPage() {
     );
 }
 
-export default AboutPage;
+export default ProductPage;
