@@ -14,9 +14,10 @@ function HomePage() {
         <Hero/>
         
         <Stats/>
-        <Pricing/>
+        
         <Education/>
         <Trust/>
+        <Pricing/>
         <OpenAccount/>
 
         <Footer/>
